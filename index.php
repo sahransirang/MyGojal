@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>MyGojal</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <style>
@@ -36,14 +37,14 @@
 </head>
 <body>
 
-<nav class="navbar navbar-inverse ">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
         <a class="navbar-brand" href="index.php">Logo</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
@@ -65,23 +66,58 @@
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
+
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+
+      <li data-target="#myCarousel" data-slide-to="3"></li>
     </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="http://placehold.it/1200x400?text=IMAGE" alt="Image">
+        <img src="http://concordia-expeditions.com/wp-content/uploads/2011/12/Borith-Lake-Gulmit-Gojal.jpg" alt="Image">
         <div class="carousel-caption">
-          <h3>Sell $</h3>
-          <p>Money Money.</p>
+          <h3>Borit lake</h3>
+          <p style="background-color:black">
+            The first valley of gojal with rich culture and eduation.
+            Most of the population speaks brushki and amzing thing about rest of the waki
+            speaker is that they also speak brushki at their homes
+          </p>
+
         </div>
       </div>
 
       <div class="item">
-        <img src="http://placehold.it/1200x400?text=Another Image Maybe" alt="Image">
+        <img src="http://i.dawn.com/primary/2015/06/5572b6ac768fe.jpg?r=1535145341" alt="Image">
         <div class="carousel-caption">
-          <h3>More Sell $</h3>
-          <p>Lorem ipsum...</p>
+        <h3>Nazim abad Shishket</h3>
+        <p style="border-radius:2px color solid white">
+          The first valley of gojal with rich culture and eduation.
+          Most of the population speaks brushki and amzing thing about rest of the waki
+          speaker is that they also speak brushki at their homes
+        </p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="http://www.pakwheels.com/forums/attachments/ask-travel-gurus/71414d1272979360-hunza-disaster-gojal-karakoram-highway-glaciated-mother-every-epic-drive-gulmit.jpg" alt="Image">
+        <div class="carousel-caption">
+        <h3>Nazim abad Shishket</h3>
+        <p style="border-radius:2px color solid white">
+          The first valley of gojal with rich culture and eduation.
+          Most of the population speaks brushki and amzing thing about rest of the waki
+          speaker is that they also speak brushki at their homes
+        </p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="http://2.bp.blogspot.com/-e5FEtv-LMbQ/VWdWTPdXsrI/AAAAAAAAVQg/YRFgCsxfc9o/s1600/Gojal%2BPakistan%2B%25283%2529.jpg" alt="Image">
+        <div class="carousel-caption">
+        <h3>Nazim abad Shishket</h3>
+        <p style="border-radius:2px color solid white">
+          The first valley of gojal with rich culture and eduation.
+          Most of the population speaks brushki and amzing thing about rest of the waki
+          speaker is that they also speak brushki at their homes
+        </p>
         </div>
       </div>
     </div>
@@ -120,7 +156,26 @@
 </div><br>
 
 <footer class="container-fluid text-center">
-  <p>Footer Text</p>
+  <div class="col-sm-4">
+    <h3>Navigation contant</h3>
+  </div>
+  <div class="col-sm-4">
+    <h3>social connection</h3>
+
+
+                      <ul class="social-network social-circle">
+                          <a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a>
+                          <a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a>
+                          <a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a>
+                          <a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a>
+                          <a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+                      </ul>
+
+                      </div>
+  <div class="col-sm-4">
+    <h2>Afflication</h2>
+  </div>
+
 </footer>
 
 </body>
