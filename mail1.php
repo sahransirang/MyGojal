@@ -1,10 +1,10 @@
 <?php
 
 $to = $_POST['to'];
-$form = $_POST['form'];
+$from = $_POST['from'];
 
-$header = "form: $form";
-$subject = $_post['subject'];
+$header = "from: $from";
+$subject = $_POST['subject'];
 $body = $_POST['body'];
 
 mail($to,$subject,$body,$header);
