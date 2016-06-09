@@ -14,8 +14,8 @@
 <br />
 <br />
 
-<label for="textfield2">Form:</label>
-<input type="text" name="form" id="textfield2" />
+<label for="textfield2">From:</label>
+<input type="text" name="from" id="textfield2" />
 <br />
 <br />
 <label for="textfield3">Subject:</label>
