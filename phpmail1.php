@@ -3,34 +3,28 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Untitled Document</title>
-</head
+</head>
 
 <body>
-
 <form action="mail1.php" method="post" enctype="multipart/form-data" name="form1" id="form1">
-
-<label for="textfield">To</label>
-<input type="text" name="to" id="textfield" />
-<br />
-<br />
-
-<label for="textfield2">From:</label>
-<input type="text" name="from" id="textfield2" />
-<br />
-<br />
-<label for="textfield3">Subject:</label>
-<input type="text" name="subject" id="textfield3" />
-<br />
-<br />
-
-<label for="body">Message:</label>
-<textarea name="body" rows="4" id="body"></textarea>
-<br />
-<br />
-
-<input type="submit" name="button" id="button" value="submit" />
-
+  <label for="textfield">To</label>
+  <input type="text" name="to" id="textfield" />
+  <br />
+  <br />
+  <label for="textfield2">From:</label>
+  <input type="text" name="from" id="textfield2" />
+  <br />
+  <br />
+  <label for="textfield3">Subject: </label>
+  <input type="text" name="subject" id="textfield3" />
+  <br />
+  <br />
+ 
+  <label for="body">Mesaage: </label>
+  <textarea name="body" rows="4" id="body"></textarea>
+  <br />
+  <br />
+  <input type="submit" name="button" id="button" value="Submit" />                                                                                              
 </form>
-
 </body>
 </html>
